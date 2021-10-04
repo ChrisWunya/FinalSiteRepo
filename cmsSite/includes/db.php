@@ -16,8 +16,8 @@ $dbName = "cms";
 
 $connection = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 
-// if ($connection) {
-// echo '<b>Connected Successfully!</b>';
-// } else {
-//   echo 'connection failed';
-// }
+if ($connection) {
+echo '<b>Connected Successfully!</b>';
+} else {
+  echo 'connection failed';
+}
