@@ -14,6 +14,10 @@
         <a class="nav-link" href="blog.php">Blog</a>
       </li>
       <li class="nav-item">
+      <!-- my cms site index.php -->
+        <a class="nav-link" href="../cmsSite/index.php">CMS</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="bioPage.php">Who Am I?</a>
       </li>
       <li class="nav-item">
