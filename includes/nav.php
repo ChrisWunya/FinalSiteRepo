@@ -15,7 +15,7 @@
       </li>
       <li class="nav-item">
       <!-- my cms site index.php -->
-        <a class="nav-link" href="../cmsSite/index.php">CMS</a>
+        <a class="nav-link" href="../cmsSite/">CMS</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="bioPage.php">Who Am I?</a>
