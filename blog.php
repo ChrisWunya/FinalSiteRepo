@@ -90,9 +90,60 @@
 -->
     </div> <!-- right column end -->
     </div> <!-- row end -->
-  <!-- </a> -->
-  <!-- </div> end of dynamic blog container -->
-  <!-- </div> -->
+
+    <!-- POST 2 -->
+    <div class="header">
+    <h2 id='blogheader'><b><?= $_SESSION['post_title']; ?></b></h2>
+  </div>
+  <!-- <?= var_dump($_GET); ?> -->
+  <!-- <?= urldecode($_SESSION['post_id']); ?> -->
+  <!-- <a class="" href="?post_id=<?= $_SESSION['post_id']; ?>"> -->
+    <div class="row blogRow">
+      <div class="leftcolumn">
+
+        <div class="card">
+
+          <h2><?= $_SESSION['post_title']; ?></h2>
+          <!-- <button class="btn btn-secondary" type="button">Read More</button> -->
+
+          <h5>Post Created: <?= $_SESSION['post_createdAt']; ?></h5>
+          <div class="fakeimg" style="height:215px;">Image</div>
+          <p class="postContentP"><?= $_SESSION['post_content']; ?></p>
+        </div>
+
+        <!-- <div class="card">
+          <h2><?= $_SESSION['post_title']; ?></h2>
+          <h5>Post Created: <?= $_SESSION['post_createdAt']; ?> </h5>
+          <div class="fakeimg" style="height:215px;">Image</div>
+          <p class="postContentP"><?= $_SESSION['post_content']; ?></p>
+        -->
+        
+
+      </div> <!-- left column end -->
+      <!--
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About Me</h2>
+          <div class="fakeimg" style="height:100px;">Image</div>
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        </div>
+
+        <div class="card">
+          <h3>Popular Post</h3>
+          <div class="fakeimg">Image</div><br>
+          <div class="fakeimg">Image</div><br>
+          <div class="fakeimg">Image</div>
+        </div>
+
+        <div class="card">
+          <h3>Follow Me</h3>
+          <p><?= $_SESSION['user_profile']; ?></p>
+        </div>
+-->
+    </div> <!-- right column end -->
+    </div> <!-- row end -->
+    <!-- POST 2 -->
+
 
   <?php
   // $data = $_GET['post_id='];
