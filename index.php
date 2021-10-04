@@ -44,7 +44,9 @@ error_reporting(E_ALL);
 
   <div class="row">
       <div class="container">
-        <h1>Welcome To My Website</h1>
+        <h1>Welcome To My Website.</h1>
+        <h2>I'm glad you made it here.</h2>
+        <h3>Enjoy!</h3>
         <br/>
         <br/>
 
