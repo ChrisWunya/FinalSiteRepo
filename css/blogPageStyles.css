@@ -1,0 +1,115 @@
+footer {
+  text-align: center;
+  border-top: 3px solid #000;
+}
+a:hover, a:visited {
+  text-decoration: none !important;
+}
+a {
+  color: inherit;
+  -webkit-transition: color 3s;
+  -moz-transition:    color 3s;
+  -ms-transition:     color 3s;
+  -o-transition:      color 3s;
+  transition:         color 3s;
+}
+a:hover {
+  color: purple;
+}
+
+#myNav {
+  height: 5vh;
+}
+
+.bgContainer {
+  /* border: 8px solid red; */
+  background-color: #875bc08f;
+  background-image: linear-gradient(315deg, #875bc0c0 45%, #402d46cc 86%);
+  color: #000;
+  min-height: 89vh;
+  max-height: 95vh;
+  padding: 20px;
+}
+
+.dynamicBlogContainer {
+  border: 8px solid lavender;
+  background-color: rgba(0,0,0,0.4);
+  color: #aaa;
+  min-height: 80vh;
+  min-width: 40vh;
+  max-width: 100vh;
+  max-height: 89vh;
+  padding: 20px;
+}
+
+.break-text h1 {
+  word-wrap: break-word;
+}
+.postContentP {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.blogRow {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 100%;
+  /* margin: 15px; */
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+#blogheader {
+  font-family: 'Arvo', serif;
+  font-size: 45px;
+}

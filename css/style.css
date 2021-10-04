@@ -1,0 +1,83 @@
+body {
+  font-family: Arial;
+}
+
+#myNav {
+  height: 5vh;
+}
+
+.bgContainer {
+  background-color: #875bc08f;
+  background-image: linear-gradient(315deg, #875bc0c0 45%, #402d46cc 86%);
+  background-size: cover;
+  color: #000;
+  min-height: 89vh;
+  padding: 20px;
+}
+
+.box {
+  border: 2px solid black;
+  max-width: 10rem;
+}
+
+footer {
+  height: 5vh;
+  text-align: center;
+  background-color: lavender;
+}
+
+section.mb-4 {
+  display: grid;
+  justify-content: center;
+  
+}
+
+/* 
+important tags are used here to override bootstrap for the transparent contact form
+to reuse: add .transparent class to fields.
+*/
+.transparent{
+  background-color:transparent !important;
+  border-bottom: 2px solid rgb(156, 30, 156) !important;
+  color: #000 !important;
+}
+
+.myContactForm {
+  max-width: 100%;
+}
+
+/* .loaderWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+
+}
+.loader {
+  background-image: url('LoadingCircle.mp4');
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+video {
+  height: 1080px;
+  width: 1920px;
+  background-size: cover;
+}
+img {
+  height: 100vh;
+  width: 100vw;
+}
+
+body, video, img {
+  overflow-x: hidden;
+  overflow-y: hidden;
+} */
