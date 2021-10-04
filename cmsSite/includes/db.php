@@ -7,7 +7,7 @@ ob_start();
 // $db['db_name'] = "cms_db";
 $dbHost = "localhost";
 $dbUser = "root";
-$dbPass = "";
+$dbPass = "Crybaby18";
 $dbName = "cms";
 
 // foreach ($db as $key => $value) {
